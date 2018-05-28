@@ -82,13 +82,13 @@
 
 		//ON MARKER CLICK EVENTS
 		//=======================================================================================
-  		google.maps.event.addListener(marker, 'click', function() {
+  		google.maps.event.addListener(marker1, 'click', function() {
    	 		map.setZoom(17);
     		map.setCenter(marker.getPosition());
 			infowindow.open(map,marker);
   		});
 		
-		google.maps.event.addListener(marker1, 'click', function() {
+		google.maps.event.addListener(marker2, 'click', function() {
    	 		map.setZoom(17);
     		map.setCenter(marker.getPosition());
 			infowindow1.open(map,marker1);

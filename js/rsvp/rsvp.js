@@ -131,9 +131,6 @@
 			//SAVE ALL ERROR REQUIRED TO POST DATA	
 			post_data["all_error_required"] = all_err;
 			
-			//DEBUG POST DATA	
-			console.log ("json " + JSON.stringify(post_data));
-			
 			//DISABLE SUBMIT BUTTON
 			var submit_value = $('input[type="submit"]#submitButton').val();
 			$('input[type="submit"]#submitButton').prop('disabled', true);
